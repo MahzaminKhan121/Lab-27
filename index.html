@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Bootstrap form</title>
+		
+		<!-- meta -->
+		<meta charset="UTF-8">
+		<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="John Doe">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- bootstrap css -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- default css -->
+		<link href="assets\css\style.css" rel="stylesheet">
+	</head>
+	
+	<body class="w-50 mx-auto">
+		<form>
+			<!-- cheakbox -->
+			<h3>
+				select which one your favorite.
+			</h3>
+			cheakbox
+			<div class="form-check form-check-inline">
+				<input type="checkbox"name="carry" value="ipl" class="form-check-input">
+				<label class="form-check-label">IPl</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input type="checkbox" name="carry" value="bpl" class="form-check-input">
+				<label class="form-check-label">BPl</label>
+			</div>
+			<div>
+				<input type="submit" value="Submit Form">
+			</div>
+			
+			<hr>
+			<!-- radio -->
+			radio
+			<div class="form-check">
+				<input type="radio" name="carry" value="football" class="form-check-input">
+				<label class="form-check-label">FOOTBALL</label>
+			</div>
+			<div class="form-check">
+				<input type="radio"  name="carry" value="cricket" class="form-check-input">
+				<label class="form-check-label">CRICKET</label>
+			</div>
+			<div>
+				<input type="submit" value="Submit Form">
+			</div>
+			
+			<hr>
+			<!-- radio -->
+			radio
+			<div class="form-check form-switch">
+				<input type="radio" name="carry" value="fifa" class="form-check-input">
+				<label class="form-check-label">FIFA</label>
+			</div>
+			<div class="form-check form-switch">
+				<input type="radio"  name="carry" value="icc" class="form-check-input">
+				<label class="form-check-label">ICC</label>
+			</div>
+			
+			<hr>
+			<p>Submit</p>
+			<div>
+				<input type="submit" class="btn btn-outline-danger" value="Submit Form">
+			</div>
+			
+			<!-- button -->
+			<p>Button</p>
+			<button type="submit" class="btn btn-outline-success" value="Submit Form">Save</button>
+			<br>
+			<p>a</p>
+			<a class="btn btn-outline-info" value="Submit Form">click here</a>
+			
+			 <hr>
+			 <div class="input-group">
+				<label class="input-group-text">USD</label>
+				<input type="number" class="form-control">
+				<label class="input-group-text">$</label>
+			 </div>
+			 <br>
+			 <br>
+			 <div class="input-group">
+				<label class="input-group-text">https//:facebook.com/</label>
+				<input type="url" class="form-control">
+			 </div>	
+			 <hr>
+			 
+			 
+			 <!-- Floating labels -->
+			 <div class="form-floating">
+				<input type="mailto" class="form-control" placeholder="abc">
+				<label class="form-label">Email</label>
+			 </div>
+			 <div class="form-floating">
+				<input type="password" class="form-control">
+				<label class="form-label">Password</label>
+			 </div>
+			 
+		</form>
+		
+		
+		
+		
+		
+		<!-- bootstrap js -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
